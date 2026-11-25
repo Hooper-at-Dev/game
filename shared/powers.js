@@ -1,0 +1,51 @@
+// Secret powers. Only the forger gets one: a single sealed envelope per round. `w` is the draw weight.
+export const POWERS = {
+  overflow: {
+    name: 'Double Dip',
+    icon: '🫙',
+    w: 5,
+    rarity: 'common',
+    when: 'On your turn',
+    desc: 'Twice the ink for this turn.',
+  },
+  tremor: {
+    name: 'Shaky Hands',
+    icon: '🫨',
+    w: 5,
+    rarity: 'common',
+    when: 'While anyone paints',
+    desc: "The next painter's brush gets the jitters.",
+  },
+  turps: {
+    name: 'Turpentine',
+    icon: '🧴',
+    w: 3,
+    rarity: 'rare',
+    when: 'While anyone paints',
+    desc: 'Dissolve the last thing someone else painted.',
+  },
+  alibi: {
+    name: 'Inside Tip',
+    icon: '🕵️',
+    w: 3,
+    rarity: 'rare',
+    when: 'Any time before the verdict',
+    desc: 'Learn the first letter and the length of the real commission.',
+  },
+  invisible: {
+    name: 'Invisible Ink',
+    icon: '👻',
+    w: 2,
+    rarity: 'mythic',
+    when: 'On your turn',
+    desc: 'Your strokes this turn stay hidden from everyone until the vote.',
+  },
+  gavel: {
+    name: 'Loaded Gavel',
+    icon: '⚖️',
+    w: 2,
+    rarity: 'mythic',
+    when: 'During the vote',
+    desc: 'Your accusation counts twice.',
+  },
+};
